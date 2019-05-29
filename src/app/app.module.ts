@@ -9,13 +9,15 @@ import { TooltipModule } from 'ngx-bootstrap/tooltip';
 import { ModalModule } from 'ngx-bootstrap/modal';
 import { NavbarComponent } from './navbar/navbar.component';
 import { PeopleComponent } from './people/people.component';
+import { PlanetsComponent } from './planets/planets.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    PeopleComponent
+    PeopleComponent,
+    PlanetsComponent
   ],
   imports: [
     BrowserModule,
